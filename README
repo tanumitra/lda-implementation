@@ -19,4 +19,4 @@ Four files: (xxx is the input filename)
 4. loglike-input_xxx - loglikelihood at each iteration.
 
 Example usage:-
-python lda_gibbs.py -f input.data -k 18 -a 0.05 -b 0.05 -i 10 -w 10 -o output_folder
+python lda_gibbs.py -f input.data -k 18 -a 0.05 -b 0.05 -i 100 -w 20 -o output_folder
