@@ -10,11 +10,19 @@ Input arguments:
 -o output folder where all the output files will be saves
 
 Output files:
+<<<<<<< HEAD
 3 files: (xxx is the input filename)
+=======
+Four files: (xxx is the input filename)
+>>>>>>> 4348fda414efddac5ae2d0b97846af07a92e1a43
 1. doc_topic_input_xxx - document topic distributions of the entire document collection
 2. topic_word_xxx - topic word distributions of the k topics
 3. vocabinput_xxx - list of vocabulary terms
 4. loglike-input_xxx - loglikelihood at each iteration.
 
 Example usage:-
+<<<<<<< HEAD
 python lda_gibbs.py -f input.data -k 18 -a 0.05 -b 0.05 -i 10 -w 10 -o output_folder
+=======
+python lda_gibbs.py -f input.data -k 18 -a 0.05 -b 0.05 -i 10 -w 10 -o output_folder
+>>>>>>> 4348fda414efddac5ae2d0b97846af07a92e1a43
